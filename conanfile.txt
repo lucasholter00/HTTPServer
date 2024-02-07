@@ -1,0 +1,6 @@
+##[requires]
+##Dependency here
+
+[generators]
+CMakeDeps
+CMakeToolchain
