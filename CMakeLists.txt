@@ -9,4 +9,5 @@ message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
 add_compile_options(-Wall -Wextra -pedantic -Werror -Wunused)
 
 add_executable(${PROJECT_NAME}
-   src/main.c)
+   src/main.c
+   src/server.c)
