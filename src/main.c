@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "server.h"
 
 int main(void) {
-    printf("Hello, World!");
+    initialize();
     return 0;
 }
